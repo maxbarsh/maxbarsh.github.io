@@ -898,6 +898,17 @@ input, select, textarea {
 
 /* Icons */
 
+	#mePicture{
+		width: 200px;
+		border-radius: 400px;
+
+		border: solid 2px #ffffff;
+
+		position: absolute;
+		left: -56px;
+		top: -155px;
+	}
+
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -1294,9 +1305,9 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 12rem;
+			height: 12rem;
+			line-height: 12rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
