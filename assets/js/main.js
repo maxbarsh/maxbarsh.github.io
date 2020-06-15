@@ -4,12 +4,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
-var slideIndex = [1,1];
+//need to add another 1 to slideIndex, add class to slideID, and call showSlides(1,x)
+var slideIndex = [1,1,1];
 /* Class the members of each slideshow group with different CSS classes */
-var slideId = ["clockSlides", "penteSlides"] 
+var slideId = ["pacmanSlides", "clockSlides", "penteSlides"]; 
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);

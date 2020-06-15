@@ -1572,6 +1572,13 @@ input, select, textarea {
 			margin-right: auto;
 		}
 
+		.pacmanMedia{
+			display: block;
+			width: 45%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
 		.footnote{
 			font-size: 12px;
 		}
@@ -1699,7 +1706,7 @@ input, select, textarea {
   }
   
   /* Hide the images by default */
-  .penteSlides, .clockSlides {
+  .penteSlides, .clockSlides, .pacmanSlides {
 	display: none;
   }
   
