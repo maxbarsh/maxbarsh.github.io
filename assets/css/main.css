@@ -1681,6 +1681,13 @@ body.is-preload #header .content .inner {
 	margin-right: auto;
 }
 
+.btMedia {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .footnote {
 	font-size: 12px;
 }
@@ -1802,7 +1809,8 @@ body.is-preload #footer {
 /* Hide the images by default */
 .penteSlides,
 .clockSlides,
-.pacmanSlides {
+.pacmanSlides,
+.btSlides {
 	display: none;
 }
 
